@@ -18,7 +18,7 @@ export class MySurvey extends React.Component {
                 <br />
                 <br />
                 <label htmlFor="fav_color">Favourite colour</label><br />
-                <input type="color" id="fav_color" name="favourite colour" value={hex}></input>
+                <input type="color" id="fav_color" name="favourite colour" defaultValue={hex}></input>
                 <br />
                 <br />
                 <input type="submit" value="Continue" />
